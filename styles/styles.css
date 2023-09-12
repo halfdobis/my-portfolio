@@ -214,6 +214,7 @@ span {
   align-items: center;
   flex-wrap: wrap;
   gap: 2rem;
+  padding-bottom: 7rem;
 }
 
 .services-container .services-box {
@@ -248,6 +249,7 @@ span {
 
 .project {
   background: var(--secondary-bg-color);
+  padding-bottom: 7rem;
 }
 
 .project h2 {
@@ -327,20 +329,23 @@ span {
  margin-bottom: 4rem;
 }
 
-.contact h2 {
-  margin-bottom: 3rem;
-}
-
 .contact .contact-content {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+}
+
+.contact-content h2 {
+  text-align: center;
+  font-size: 4.5rem;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
 }
 
 .contact .contact-content a {
   text-transform: capitalize;
 }
-
 
 .footer {
   display: flex;
@@ -499,10 +504,6 @@ span {
 @media (max-width: 450px) {
   html {
     font-size: 50%;
-  }
-
-  .contact form .input-box input {
-    width: 100%;
   }
 }
 
