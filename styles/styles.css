@@ -30,6 +30,7 @@ body {
 
 section {
   padding: 10rem 9% 2rem;
+  min-height: 100vh;
 }
 
 .header {
@@ -146,7 +147,6 @@ span {
   flex-direction: column;
   gap: 2rem;
   background: var(--secondary-bg-color);
-  padding-bottom: 6rem;
 }
 
 .about-img {
@@ -214,7 +214,6 @@ span {
   align-items: center;
   flex-wrap: wrap;
   gap: 2rem;
-  padding-bottom: 7rem;
 }
 
 .services-container .services-box {
@@ -323,10 +322,6 @@ span {
 .project-layer a i {
   font-size: 2rem;
   color: var(--secondary-bg-color);
-}
-
-.contact {
- margin-bottom: 4rem;
 }
 
 .contact .contact-content {
