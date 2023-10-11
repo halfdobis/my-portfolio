@@ -39,6 +39,10 @@ window.onscroll = () => {
   navbar.classList.remove("active");
 };
 
+var date = new Date();
+var year = date.getFullYear();
+document.getElementById("current-year").innerHTML = year;
+
 // scroll reveal
 
 ScrollReveal({
@@ -64,4 +68,3 @@ const typed = new Typed(".multiple-text", {
   backDelay: 1000,
   loop: true,
 });
-

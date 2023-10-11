@@ -205,9 +205,12 @@ span {
 
 .about-content p {
   font-size: 1.6rem;
-  margin-top: 2rem;
-  max-width: 760px;
-  /* margin: 2rem 25rem 0rem 25rem; */
+  margin: 2rem 0 3rem;
+  max-width: 940px;
+}
+
+.about-content p span {
+  font-weight: 800;
 }
 
 .services h2 {
@@ -351,12 +354,16 @@ span {
 }
 
 .footer {
+  padding: 3rem 10%;
+  background: var(--secondary-bg-color);
+}
+
+.footer .footer-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding: 3rem 10%;
-  background: var(--secondary-bg-color);
+  margin-bottom: 2rem;
 }
 
 .footer .social-media a {
@@ -400,6 +407,12 @@ span {
   color: var(--main-color);
 }
 
+.footer .copyright {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #e7ecf8b0;
+}
+
 
 /* BREAKPOINTS */
 
@@ -420,10 +433,6 @@ span {
 
   section {
     padding: 10rem 3% 2rem;
-  }
-
-  .about p {
-    margin: 2rem 0 3rem;
   }
 
   .services {
@@ -506,6 +515,15 @@ span {
   .project-container {
     grid-template-columns: 1fr;
   }
+
+  .footer-container {
+    flex-direction: column-reverse;
+  }
+
+  .footer .social-media {
+    text-align: center;
+    margin-top: 2.5rem;
+  }
 }
 
 @media (max-width: 450px) {
@@ -517,14 +535,5 @@ span {
 @media (max-width: 365px) {
   .home-img img {
     width: 90vw;
-  }
-
-  .footer {
-    flex-direction: column-reverse;
-  }
-
-  .footer .social-media {
-    text-align: center;
-    margin-top: 2.5rem;
   }
 }
