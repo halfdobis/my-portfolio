@@ -62,7 +62,7 @@ ScrollReveal().reveal(".home-content h1, .about-content", { origin: "left" });
 // typed js
 
 const typed = new Typed(".multiple-text", {
-  strings: ["Software Developer", "UI Designer", "Hardware Engineer"],
+  strings: ["Software Engineer", "UI Designer"],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 1000,
